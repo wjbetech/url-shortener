@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener | @wjbetech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="title">
+            <i class='bx bx-link-alt'></i>
+            <h1>URL Shortener</h1> 
+        </div>
+
+        <div class="inputs">
+            <label for="original-url">URL:</label>
+            <input type="text" id="original-url" name="original-link" placeholder="https://www.exampleurl.com">
+        </div>
+
+        <!-- buttons -->
+        <div class="buttons">
+            <button id="reload-button">Reload</button>
+            <button id="shorten-button">Shorten</button>
+        </div>
+
+        <!-- results -->
+        <div class="outputs">
+            <label for="shortened-url">New URL:</label>
+            <textarea name="shortened-url" id="shortened-url" rows="1" readonly></textarea>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
